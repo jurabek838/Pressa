@@ -1,0 +1,437 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container_one {
+  width: 100%;
+  background-color: rgb(95, 95, 222);
+  height: 400px;
+}
+
+.container_two {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.nav_text {
+  color: #FFF;
+  font-family: SF Pro Display;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 20px;
+}
+.nav_text:hover {
+  color: gold;
+}
+
+.nov_grup {
+  display: flex;
+}
+
+.nav_afrre {
+  display: flex;
+  gap: 100px;
+}
+
+.nav_logo {
+  display: flex;
+}
+
+.nav_input {
+  display: flex;
+  width: 304px;
+  height: 46px;
+  padding-left: 50px;
+  margin-left: 200px;
+  margin-top: 20px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.nav_relativ {
+  display: flex;
+  gap: 40px;
+  margin-left: 130px;
+  margin-top: 30px;
+  color: white;
+}
+
+.text_one:hover {
+  color: gold;
+}
+
+.text_two:hover {
+  color: gold;
+}
+
+.nav_img {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  margin-left: 210px;
+  margin-top: 30px;
+}
+
+.nav_btn {
+  width: 150px;
+  height: 47px;
+  display: inline-flex;
+  padding: 15px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  border-radius: 4px;
+  background: #FE8B37;
+  margin-top: 18px;
+  border: transparent;
+}
+.nav_btn:hover {
+  color: blue;
+  box-shadow: 0px 0px 20px 0px gold;
+}
+
+.headir_text_center {
+  color: #FFF;
+  width: 840px;
+  text-align: center;
+  font-family: SF Pro Display;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 79px;
+  margin-left: 250px;
+  margin-top: 100px;
+}
+
+.headir_top {
+  border: 1px solid black;
+  width: 850px;
+  height: 50px;
+  margin-left: 160px;
+  background-color: white;
+  margin-top: 50px;
+}
+
+.line {
+  width: 1px;
+  height: 50px;
+  background-color: black;
+  margin-left: 200px;
+}
+
+.headir_btn {
+  width: 110px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 0px 10px 10px 0px;
+  background: #006AFF;
+  position: absolute;
+  margin-top: -50px;
+  margin-left: 1007px;
+  border: transparent;
+  color: white;
+}
+.headir_btn:hover {
+  color: gold;
+  box-shadow: 0px 0px 15px 0px red;
+}
+
+.hettir_one {
+  display: flex;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.hettir_two {
+  display: flex;
+  margin-left: 210px;
+  margin-top: -78px;
+}
+
+.hutter_three {
+  display: flex;
+  margin-left: 420px;
+  margin-top: -26px;
+}
+
+.hutter_for {
+  display: flex;
+  margin-left: 650px;
+  margin-top: -30px;
+}
+
+.section_card {
+  margin-top: 100px;
+  margin-left: 160px;
+}
+
+.sect_img {
+  margin-left: 150px;
+  margin-top: 50px;
+}
+
+.treel_bekt {
+  color: #333;
+  font-family: SF Pro Display;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 34px;
+  width: 377px;
+  margin-left: 170px;
+}
+
+.treent_vrel {
+  display: flex;
+}
+
+.section_img_one {
+  position: relative;
+  width: 407px;
+  height: 417px;
+  flex-shrink: 0;
+  margin-left: 50px;
+  border-radius: 5px 5px 0px 0px;
+  background: url(<path-to-image>), lightgray 0px -46.095px/100% 122.108% no-repeat;
+  display: flex;
+  margin-top: 50px;
+  display: flex;
+}
+
+.section_card_two {
+  display: flex;
+}
+
+.section_text {
+  width: 377px;
+  color: #333;
+  font-family: SF Pro Display;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 34px;
+  margin-left: 20px;
+  margin-left: 70px;
+  margin-top: 30px;
+}
+
+.dell_befor {
+  display: flex;
+  margin-left: 70px;
+  margin-top: 20px;
+}
+
+.gylko_optre {
+  display: flex;
+}
+
+.vertop_ettry {
+  margin-left: 250px;
+  margin-top: -110px;
+  gap: 50px;
+}
+
+.section_card_one {
+  margin-left: -50px;
+}
+
+.section_img_two {
+  margin-top: 20px;
+}
+
+.text_polly {
+  width: 118px;
+}
+
+.scarlit_smill {
+  display: flex;
+  margin-left: 500px;
+  margin-top: -700px;
+}
+
+.scarlit_smill_two {
+  display: flex;
+  margin-left: 1000px;
+  margin-top: -700px;
+}
+
+.scarlit_smill_three {
+  margin-left: -50px;
+}
+
+.section_card_for {
+  margin-top: -700px;
+  margin-left: 500px;
+}
+
+.section_card_box {
+  margin-left: 500px;
+  margin-top: -700px;
+}
+
+.scarlit_smill_bggin {
+  margin-left: 500px;
+}
+
+.follow_kill {
+  margin-left: 1050px;
+  margin-top: -700px;
+}
+
+.estreat_optree {
+  margin-top: 50px;
+  margin-left: 380px;
+}
+
+.follow_kill_brench {
+  margin-left: 1000px;
+  margin-top: -690px;
+}
+
+.section_card_kill_all {
+  margin-left: -1040px;
+}
+
+.kill_three_for {
+  margin-left: 300px;
+  margin-top: -690px;
+}
+
+.scarlit_smill_five {
+  margin-left: 500px;
+  margin-top: -690px;
+}
+
+.btn_footer {
+  color: white;
+  display: inline-flex;
+  padding: 15px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 5px;
+  background: #006AFF;
+  margin-left: 700px;
+  margin-top: 100px;
+  border: transparent;
+}
+.btn_footer:hover {
+  color: gold;
+  box-shadow: 0px 0px 15px 0px red;
+}
+
+.footr_text {
+  color: white;
+  margin-top: 100px;
+  margin-left: 15px;
+  font-family: SF Pro Display;
+  font-size: 36px;
+  width: 309px;
+}
+
+.fast_footer {
+  border: 1px solid blue;
+  width: 200px;
+  height: 310px;
+  width: 625px;
+  height: 301px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #055BD3;
+  margin-top: 100px;
+  margin-left: -500px;
+  padding-left: -200px;
+}
+
+.footer_one {
+  display: flex;
+}
+
+.footer_img {
+  margin-top: 22px;
+  margin-left: -300px;
+  margin-bottom: 100px;
+}
+
+.conatiner_three {
+  background-color: rgb(95, 95, 222);
+  width: 100%;
+}
+
+.footr_text_box {
+  color: white;
+  margin-top: 100px;
+  margin-left: 15px;
+  font-family: SF Pro Display;
+  font-size: 36px;
+  width: 309px;
+  width: 350px;
+}
+
+.fast_footer {
+  border: 1px solid blue;
+  width: 625px;
+  height: 301px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #055BD3;
+  margin-top: 100px;
+  margin-left: 90px;
+}
+
+.footer_one_card {
+  display: flex;
+}
+
+.footer_img_two {
+  margin-top: 7px;
+  margin-left: -280px;
+}
+
+.footer_bottom {
+  border: 1px solid rgb(95, 95, 222);
+  height: 90px;
+}
+
+.footer_bottom_one {
+  color: #FFF;
+  font-family: SF Pro Display;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+.text_mr {
+  display: flex;
+  margin-left: 500px;
+  margin-top: -25px;
+  gap: 100px;
+  color: white;
+}
+
+.hittry_ofil {
+  color: white;
+  margin-left: 70px;
+}
+
+.sterll_bell {
+  margin-left: 30px;
+}
+
+.willi_restgre {
+  margin-left: 30px;
+}
+
+.gtyup_olin {
+  margin-left: 940px;
+}/*# sourceMappingURL=style.css.map */
